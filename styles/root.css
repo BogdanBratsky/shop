@@ -1,0 +1,21 @@
+:root {
+    /* ЦВЕТА */
+    --col-bg: #f3f0f0;
+    --col-el: #c39eff;
+    --col-el-h: #c5c8ff;
+    --col-shadow: #e7d7ff;
+    --col-main: #f7f7f7;
+    --col-txt: #525252;
+    --col-bc: #dfdfdf;
+    --col-footer: #f0eaea;
+    --col-scrl: #ffffff;
+    --col-srch: #9c9c9c;
+
+     /* BORDER-RADIUS */
+
+     --b-r-el: 7px;
+
+     /* MARGIN */
+
+     --main-marg-top: 72px;
+}

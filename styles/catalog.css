@@ -1,0 +1,296 @@
+.main-container {
+    margin-top: var(--main-marg-top);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-sidebar {
+    border-right: 1px solid var(--col-bc);
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-sidebar b {
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 24px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: var(--col-el);
+    border: 1px solid var(--col-bc);
+    border-radius: 7px;
+    cursor: default;
+    letter-spacing: 1px;
+}
+
+.main-sidebar li {
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.main-sidebar li::before {
+    content: url('../images/interface/marker.png');
+    margin-right: 5px;
+}
+
+.main-sidebar a:hover {
+    color: var(--col-el-h);
+    transition: 0.2s;
+}
+
+.section-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .main-cards_navigation {
+    margin-left: 12px;
+    margin-bottom: 12px;
+} */
+
+.main-cards_container {
+    width: 950px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.card {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 430px;
+    width: 225px;
+    background-color: var(--col-main);
+    border: 1px solid var(--col-bc);
+    /* box-shadow: 0 0 12px #e3d2ff; */
+    border-radius: 5px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.card:nth-child(4n+4) {
+    border-right: 1px solid #e4e4e4;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px var(--col-shadow);
+    /* background-color: var(--col-main); */
+    border: 1px solid var(--col-bc);
+    scale: 1.015;
+    /* transition: 0.3s; */
+}
+
+.card-header {
+    height: 230px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    height: 250px;
+    width: 274px;
+}
+
+.card-image img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.card-image img:hover {
+    scale: 1.01;
+    transition: 0.5s;
+}
+
+.card-product__name {
+    line-height: 20px;
+    font-family: 'Literata', serif;
+    font-size: 14px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 22px;
+    height:  40px;
+    display: flex;
+    align-items: center;
+    /* text-overflow: ellipsis; */
+}
+
+.card-product__author_name {
+    /* margin: 0 auto; */
+    display: inline-block;
+    font-family: 'Literata', serif;
+    font-size: 12px;
+    overflow: hidden;
+    height: 18px;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: #757575;
+}
+
+.card-product__name:hover {
+    color: var(--col-el-h);
+    transition: 0.3s;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 auto; */
+}
+
+.card__bookmark-basket {
+    display: flex;
+    align-items: center;
+}
+
+.basket-bookmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-button__price {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 185px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-top: 1px solid var(--col-bc);
+    padding-top: 25px;
+}
+
+.card-price {
+    /* padding-left: 55px; */
+    margin-bottom: 3px;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* .card-basket__button {
+    border-radius: 10px;
+    width: 80px;
+    height: 38px;
+    background-color: var(--col-el);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--col-main);
+} */
+
+.bookmark-button {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15px;
+    left: 15px;
+    width: 34px;
+    height: 32px;
+    margin-right: 8px;
+    border-radius: 50px;
+    background-color: var(--col-main);
+    border: 1px solid var(--col-bc);
+    z-index: 1;
+}
+
+.bookmark-button img {
+    width: 16px;
+    height: 16px;
+}
+
+.bookmark-button img:hover {
+    transition: 0.3s;
+    scale: 1.1;
+}
+
+.card-basket__button {
+    border-radius: 50px;
+    width: 34px;
+    height: 32px;
+    background-color: var(--col-el);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--col-main);
+}
+
+.card-basket__button:hover {
+    background-color: var(--col-el-h);
+    transition: 0.5s;
+}
+
+.button-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-image img {
+    height: 16px;
+    width: 16px;
+}
+
+.button-image img:hover {
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.pagination-block {
+    margin: 0 auto;
+    width: 1100px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    /* margin-top: 12px; */
+}
+
+.pagination-buttons {
+    width: 836px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-button { 
+    height: 100%;
+    width: 40px;
+    background-color: var(--col-main);
+    border: 1px solid var(--col-bc);
+    border-radius: 50px;
+    color: var(--col-txt);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+}
+
+.pagination-buttons a:not(:first-child) {
+    margin-left: 12px;
+}
+
+.pagination-button:hover {
+    background-color: var(--col-el-h);
+    transition: 0.5s;
+}
