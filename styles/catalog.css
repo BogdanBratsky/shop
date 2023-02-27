@@ -85,9 +85,9 @@
 .card:hover {
     box-shadow: 0 0 20px var(--col-shadow);
     /* background-color: var(--col-main); */
-    border: 1px solid var(--col-bc);
-    scale: 1.015;
-    /* transition: 0.3s; */
+    border: 1px solid #d1d1d1;
+    /* scale: 1.015; */
+    transition: 0.4s;
 }
 
 .card-header {
@@ -224,7 +224,7 @@
 
 .card-basket__button {
     border-radius: 50px;
-    width: 34px;
+    width: 42px;
     height: 32px;
     background-color: var(--col-el);
     font-family: 'Alegreya Sans SC', sans-serif;
