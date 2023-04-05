@@ -13,7 +13,7 @@ li {
     list-style: none;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 11px;
 }
 
@@ -28,7 +28,7 @@ li {
     background: #aaaaaa;
     box-shadow: 0 0 2px #707070 inset;
     border: 1px solid #cacaca;
-}
+} */
 
 /* input::-moz-placeholder { color: var(--col-srch); }
 input::-webkit-input-placeholder { color: var(--col-srch); } */
@@ -37,6 +37,7 @@ html, body {
     height: 100%;
     background-color: var(--col-bg);
     /* font-family: 'Raleway', sans-serif; */
+    min-width: 1200px;
 }
 
 .wrapper {
@@ -48,6 +49,7 @@ html, body {
 .container {
     width: 1170px;
     margin: 0 auto;
+    /* padding: 0 15px; */
 }
 
 /* HEADER */

@@ -6,7 +6,7 @@
 
     <title>Страница товара</title>
     
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name='viewport' content='1200'>
     
     <link rel='stylesheet' type='text/css' media='screen' href='styles/normalize.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles/root.css'>
@@ -27,7 +27,7 @@
                 <nav class="header-nav">
                     <div class="logo-search-block">
                         <div class="header-logo">
-                            <div href="" class="header-logo__text"><a href="">BOOKS</a></div>
+                            <div href="" class="header-logo__text"><a href="index.html">BOOKS</a></div>
                         </div>
                         <form action="">
                             <div class="search-form">
@@ -58,10 +58,52 @@
         <main class="main">
             <div class="container">
                 <article class="product-wrap">
-                    <div class="product-block__images"></div>
+                    <div class="product-block__images">
+                        <div class="product-block__other-img">
+                            <div class="img-block">
+                                <img src="https://cdn.img-gorod.ru/1202x699/nomenclature/24/059/2405917_1.jpg" alt="" srcset="">
+                            </div>
+                            <div class="img-block">
+                                <img src="https://cdn.img-gorod.ru/1202x699/nomenclature/25/173/2517303_2.jpg" alt="" srcset="">
+                            </div>
+                            <div class="img-block">
+                                <img src="https://cdn.img-gorod.ru/1202x699/nomenclature/24/059/2405917_1.jpg" alt="" srcset="">
+                            </div>
+                            <div class="img-block">
+                                <img src="https://cdn.img-gorod.ru/1202x699/nomenclature/25/173/2517303_2.jpg" alt="" srcset="">
+                            </div>
+                            <div class="img-block">
+                                <img src="https://cdn.img-gorod.ru/1202x699/nomenclature/24/059/2405917_1.jpg" alt="" srcset="">
+                            </div>
+                            <div class="img-block">
+                                <img src="https://cdn.img-gorod.ru/1202x699/nomenclature/24/059/2405917_1.jpg" alt="" srcset="">
+                            </div>
+                            <div class="img-block">
+                                <img src="https://cdn.img-gorod.ru/1202x699/nomenclature/24/059/2405917_1.jpg" alt="" srcset="">
+                            </div>
+                            <div class="img-block">
+                                <img src="https://cdn.img-gorod.ru/1202x699/nomenclature/24/059/2405917_1.jpg" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="product-block__main-img">
+                            <img id="main-img" src="https://cdn.img-gorod.ru/310x500/nomenclature/24/059/2405917.jpg" alt="">
+                        </div>
+                    </div>
                     <section class="product-wrap__info-block">
-                        <header class="product-wrap__product-name">Название книги</header>
-                        <div class="product-wrap__author-name">Имя автора</div>
+                        <!-- <script>
+                            document.write('asdas');
+                        </script> -->
+                        <div class="prod-auth-names">
+                            <header class="product-wrap__product-name">Гарри Поттер и философский камень</header>
+                            <div class="product-wrap__author-name">Джоан Кэтлин Роулинг</div>  
+                        </div>
+                        <div class="description-block">
+                            <span>
+                                <h5>
+                                    Жизнь Гарри Поттера меняется до неузнаваемости в одиннадцатый день рождения, когда Рубеус Огрид, гигант с похожими на жуков глазами, вручает ему письмо с фантастическими известиями. Гарри Поттер – вовсе не обычный мальчик. Он колдун. И стоит на пороге удивительнейших приключений…
+                                </h5>
+                            </span>
+                        </div>
                     </section>
                 </article>
             </div>
@@ -109,6 +151,7 @@
     </div>
 
     <script src="jquery-3.6.1.min.map"></script>
+    <script src="javascript/functions.js"></script>
     <!-- <script src="components/functions.js"></script>
     <script src="constants/catalog.js"></script>
     <script src="constants/root.js"></script>

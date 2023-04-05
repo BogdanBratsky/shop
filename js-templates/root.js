@@ -1,0 +1,1 @@
+const mainBlock = document.querySelector('.main');
